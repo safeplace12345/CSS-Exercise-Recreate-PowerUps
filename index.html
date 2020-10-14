@@ -2,19 +2,31 @@
 <html lang="en">
 
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap" rel="stylesheet">
     <style>
         * {
             box-sizing: border-box;
         }
         
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
         main {
-            border: 2px solid red;
+            /* border: 2px solid red; */
+            width: 896px;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         header,
         footer,
         section {
-            border: 2px solid green;
+            /* border: 2px solid green; */
         }
         
         section {
@@ -22,8 +34,17 @@
         }
         
         article {
-            border: 2px solid purple;
+            border: 2px solid #efefef;
             flex-basis: 33.33%;
+            background-color: #f9f9f9;
+            margin: 0 10px;
+            /* display: flex;
+            flex-direction: column;
+            align-items: center; */
+        }
+        article img {
+            display: block;
+            margin: 0 auto;
         }
     </style>
     <meta charset="UTF-8">
