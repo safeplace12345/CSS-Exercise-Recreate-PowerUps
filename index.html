@@ -2,12 +2,24 @@
 <html lang="en">
 <head>
     <style>
+        *{
+            box-sizing: border-box;
+        }
         main{
             border:2px solid red;
         }
         header,footer,section {
             border:2px solid green;
 
+        }
+        section{
+            display:flex;
+            
+        }
+        article{
+            border: 2px solid purple;
+            flex-basis: 33.33%;
+            
         }
     </style>
     <meta charset="UTF-8">
@@ -23,7 +35,11 @@
     </header>
     <!--2-->
     <section>
-    Plans
+    
+    <!--Purple column-->
+    <article>One</article>
+    <article>two</article>
+    <article>three</article>
     </section>
     <!-- 3 -->
     <footer>
